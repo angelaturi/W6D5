@@ -16,5 +16,6 @@ class Cat < ApplicationRecord
     validates :sex, inclusion: { in: %w(M F) }, presence: true
     validates :color, inclusion: { in: %w(Orange Tabby Brown White) }, presence: true
 
+    test
     
 end
